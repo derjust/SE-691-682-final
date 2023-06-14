@@ -1,0 +1,155 @@
+@inproceedings{Eth2Vec,
+author = {Ashizawa, Nami and Yanai, Naoto and Cruz, Jason Paul and Okamura, Shingo},
+title = {Eth2Vec: Learning Contract-Wide Code Representations for Vulnerability Detection on Ethereum Smart Contracts},
+year = {2021},
+isbn = {9781450384001},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3457337.3457841},
+doi = {10.1145/3457337.3457841},
+abstract = {Ethereum smart contracts are programs that run on the Ethereum blockchain, and many smart contract vulnerabilities have been discovered in the past decade. Many security analysis tools have been created to detect such vulnerabilities, but their performance decreases drastically when codes to be analyzed are being rewritten. In this paper, we propose Eth2Vec, a machine-learning-based static analysis tool for vulnerability detection in smart contracts. It is also robust against code rewrites, i.e., it can detect vulnerabilities even in rewritten codes. Existing machine-learning-based static analysis tools for vulnerability detection need features, which analysts create manually, as inputs. In contrast, Eth2Vec automatically learns features of vulnerable Ethereum Virtual Machine (EVM) bytecodes with tacit knowledge through a neural network for natural language processing. Therefore, Eth2Vec can detect vulnerabilities in smart contracts by comparing the code similarity between target EVM bytecodes and the EVM bytecodes it already learned. We conducted experiments with existing open databases, such as Etherscan, and our results show that Eth2Vec outperforms a recent model based on support vector machine in terms of well-known metrics, i.e., precision, recall, and F1-score.},
+booktitle = {Proceedings of the 3rd ACM International Symposium on Blockchain and Secure Critical Infrastructure},
+pages = {47–59},
+numpages = {13},
+keywords = {neural networks, ethereum, smart contracts, vulnerability detection, static analysis, code similarity},
+location = {Virtual Event, Hong Kong},
+series = {BSCI '21}
+}
+
+@INPROCEEDINGS{DNNForJS,
+  author={Rozi, Muhammad Fakhrur and Kim, Sangwook and Ozawa, Seiichi},
+  booktitle={2020 International Joint Conference on Neural Networks (IJCNN)}, 
+  title={Deep Neural Networks for Malicious JavaScript Detection Using Bytecode Sequences}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={1-8},
+  doi={10.1109/IJCNN48605.2020.9207134}
+}
+
+@Article{SmartContracts,
+AUTHOR = {Wu, Huaiguang and Dong, Hanjie and He, Yaqiong and Duan, Qianheng},
+TITLE = {Smart Contract Vulnerability Detection Based on Hybrid Attention Mechanism Model},
+JOURNAL = {Applied Sciences},
+VOLUME = {13},
+YEAR = {2023},
+NUMBER = {2},
+ARTICLE-NUMBER = {770},
+URL = {https://www.mdpi.com/2076-3417/13/2/770},
+ISSN = {2076-3417},
+ABSTRACT = {A smart contract, as an important part of blockchain technology, has attracted considerable interest from both industry and academia. It provides the basis for the realization of a variety of practical blockchain applications and plays a crucial role in the blockchain ecosystem. While it also holds a large number of digital assets, the frequent occurrence of smart contract vulnerabilities have caused huge economic losses and destroyed the blockchain-based credit system. Currently, the security and reliability of smart contracts have become a new focus of research, and there are a number of smart contract vulnerability detection methods, such as traditional detection tools based on static or dynamic analysis. However, most of them often rely on expert rules, and therefore have poor scalability and high false negative and false positive rates. Recent deep learning methods alleviate this issue, but without considering the semantic information and context of source code. To this end, we propose a hybrid attention mechanism (HAM) model to detect security vulnerabilities in smart contracts. We extract code fragments from the source code, which focus on key points of vulnerability. We conduct extensive experiments on two public smart contract datasets (a total of 24,957 contracts). Empirical results show remarkable accuracy improvement over the state-of-the art methods on five kinds of vulnerabilities, where the detection accuracy could achieve 93.36%, 80.85%, 82.56%, 85.62%, and 82.19% for reentrancy, arithmetic vulnerability, unchecked return value, timestamp dependency, and tx.origin, respectively.},
+DOI = {10.3390/app13020770}
+}
+
+@article{NueralModel,
+  author       = {Alexander LeClair and
+                  Siyuan Jiang and
+                  Collin McMillan},
+  title        = {A Neural Model for Generating Natural Language Summaries of Program
+                  Subroutines},
+  journal      = {CoRR},
+  volume       = {abs/1902.01954},
+  year         = {2019},
+  url          = {http://arxiv.org/abs/1902.01954},
+  eprinttype    = {arXiv},
+  eprint       = {1902.01954},
+  timestamp    = {Tue, 21 May 2019 18:03:40 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-1902-01954.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{MethodCrash,
+author = {Kim, Sunghun and Zimmermann, Thomas and Premraj, Rahul and Bettenburg, Nicolas and Shivaji, Shivkumar},
+title = {Predicting Method Crashes with Bytecode Operations},
+year = {2013},
+isbn = {9781450319874},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2442754.2442756},
+doi = {10.1145/2442754.2442756},
+abstract = {Software monitoring systems have high performance overhead because they typically monitor all processes of the running program. For example, to capture and replay crashes, most current systems monitor all methods; thus yielding a significant performance overhead. Lowering the number of methods being monitored to a smaller subset can dramatically reduce this overhead. We present an approach that can help arrive at such a subset by reliably identifying methods that are the most likely candidates to crash in a future execution of the software. Our approach involves learning patterns from features of methods that previously crashed to classify new methods as crash-prone or non-crash-prone. An evaluation of our approach on two large open source projects, ASPECTJ and ECLIPSE, shows that we can correctly classify crash-prone methods with an accuracy of 80--86. Notably, we found that the classification models can also be used for cross-project prediction with virtually no loss in classification accuracy. In a further experiment, we demonstrate how a monitoring tool, RECRASH could take advantage of only monitoring crash-prone methods and thereby, reduce its performance overhead and maintain its ability to perform its intended tasks.},
+booktitle = {Proceedings of the 6th India Software Engineering Conference},
+pages = {3–12},
+numpages = {10},
+location = {New Delhi, India},
+series = {ISEC '13}
+}
+
+@INPROCEEDINGS{TokenizingCode,
+  author={Jimenez, Matthieu and Maxime, Cordy and Le Traon, Yves and Papadakis, Mike},
+  booktitle={2018 IEEE International Conference on Software Maintenance and Evolution (ICSME)}, 
+  title={On the Impact of Tokenizer and Parameters on N-Gram Based Code Analysis}, 
+  year={2018},
+  volume={},
+  number={},
+  pages={437-448},
+  doi={10.1109/ICSME.2018.00053}}
+
+@article{BigVocabNot,
+  author       = {Rafael{-}Michael Karampatsis and
+                  Hlib Babii and
+                  Romain Robbes and
+                  Charles Sutton and
+                  Andrea Janes},
+  title        = {Big Code != Big Vocabulary: Open-Vocabulary Models for Source Code},
+  journal      = {CoRR},
+  volume       = {abs/2003.07914},
+  year         = {2020},
+  url          = {https://arxiv.org/abs/2003.07914},
+  eprinttype    = {arXiv},
+  eprint       = {2003.07914},
+  timestamp    = {Mon, 12 Oct 2020 10:46:34 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2003-07914.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{Attention,
+  author       = {Ashish Vaswani and
+                  Noam Shazeer and
+                  Niki Parmar and
+                  Jakob Uszkoreit and
+                  Llion Jones and
+                  Aidan N. Gomez and
+                  Lukasz Kaiser and
+                  Illia Polosukhin},
+  title        = {Attention Is All You Need},
+  journal      = {CoRR},
+  volume       = {abs/1706.03762},
+  year         = {2017},
+  url          = {http://arxiv.org/abs/1706.03762},
+  eprinttype    = {arXiv},
+  eprint       = {1706.03762},
+  timestamp    = {Sat, 23 Jan 2021 01:20:40 +0100},
+  biburl       = {https://dblp.org/rec/journals/corr/VaswaniSPUJGKP17.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@misc{OpenAIWhisper,
+      title={Robust Speech Recognition via Large-Scale Weak Supervision}, 
+      author={Alec Radford and Jong Wook Kim and Tao Xu and Greg Brockman and Christine McLeavey and Ilya Sutskever},
+      year={2022},
+      eprint={2212.04356},
+      archivePrefix={arXiv},
+      primaryClass={eess.AS}
+}
+
+@Article{BERTWebShell,
+author={Pu, Ao
+and Feng, Xia
+and Zhang, Yuhan
+and Wan, Xuelin
+and Han, Jiaxuan
+and Huang, Cheng},
+title={BERT-Embedding-Based JSP Webshell Detection on Bytecode Level Using XGBoost},
+journal={Security and Communication Networks},
+year={2022},
+month={Aug},
+day={31},
+publisher={Hindawi},
+volume={2022},
+pages={4315829},
+abstract={Webshell is a malicious program that might result in data theft, file modification, or other damaging behaviors once uploaded to a server. Detecting webshells is a key security concern for website administrators. In recent years, techniques such as obfuscation and encryption have been deployed on webshell technology, and classic detection approaches such as static feature matching are gradually underperforming on webshell detection. Meanwhile, there are variations between languages such as JSP and PHP, and researchers have proposed webshell detection methods primarily for languages such as PHP. At the same time, there are fewer detection techniques for JSP webshells. In this case, a detection approach for the JSP webshells is needed. This paper provides a novel webshell detection model for the JSP language. The model{\&}{\#}x2019;s fundamental premise is that it introduces the BERT-based word vector extraction method, which has been shown in experiments to be more effective at detecting obfuscation, encryption, and other means of evading detection than the traditional Word2vec word vector extraction method. Meanwhile, we introduce the XGBoost algorithm as the model classifier. The experimental results reveal that present model has achieved 99.14{\&}{\#}x0025; accuracy, 98.68{\&}{\#}x0025; precision, 98.03{\&}{\#}x0025; recall, and 98.35{\&}{\#}x0025; f1 score, and the overall effect is better than the already existing JSP webshell detection approaches.},
+issn={1939-0114},
+doi={10.1155/2022/4315829},
+url={https://doi.org/10.1155/2022/4315829}
+}
