@@ -1,0 +1,12 @@
+[package]
+name = "rust-validator"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.72"
+exitcode = "1.1.2"
+wast = "62.0.0"
+wat = "1.0.68"
